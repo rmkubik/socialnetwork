@@ -1,0 +1,106 @@
+{
+  "levels": {
+    "level1": {
+      "background_image": "assets/images/sworld_template.png",
+      "level_class": "Level1",
+      "title": "Leveling Up"
+    },
+    "level2": {
+      "background_image": "assets/images/sworld_template.png",
+      "level_class": "Level2",
+      "title": "A Social Network"
+    },
+    "level3": {
+      "background_image": "assets/images/sworld_template.png",
+      "level_class": "Level3",
+      "title": "Hal 2000"
+    },
+    "level4": {
+      "background_image": "assets/images/sworld_template.png",
+      "level_class": "Level4",
+      "title": "Lady of the Lake"
+    },
+    "level5": {
+      "background_image": "assets/images/sworld_template.png",
+      "level_class": "Level5",
+      "title": "Keep it Steady"
+    }
+  },
+  "level_order": [
+    "level2",
+    "level3",
+    "level1",
+    "level4",
+    "level5"
+  ],
+  "assets": {
+    "sfx_place": {
+      "type":"audio",
+      "source":"assets/audio/place_beacon.wav"
+    },
+    "sfx_talk": {
+      "type":"audio",
+      "source":"assets/audio/talk.wav"
+    },
+    "sfx_blip1": {
+      "type":"audio",
+      "source":"assets/audio/blip1.wav"
+    },
+    "sfx_blip2": {
+      "type":"audio",
+      "source":"assets/audio/blip2.wav"
+    },
+    "sfx_blip3": {
+      "type":"audio",
+      "source":"assets/audio/blip3.wav"
+    },
+    "sfx_blip4": {
+      "type":"audio",
+      "source":"assets/audio/blip4.wav"
+    },
+    "sfx_blip5": {
+      "type":"audio",
+      "source":"assets/audio/blip5.wav"
+    },
+    "lvl_template": {
+      "type":"image",
+      "source":"assets/images/sworld_template.png"
+    },
+    "img_people": {
+      "type": "spritesheet",
+      "source": "assets/images/sw_people.png",
+      "frame_width": 18,
+      "frame_height": 21,
+      "frames": 25,
+      "spacing": 3,
+      "margin": 3
+    },
+    "img_speech": {
+      "type": "spritesheet",
+      "source": "assets/images/sw_speech.png",
+      "frame_width": 30,
+      "frame_height": 24,
+      "frames": 25,
+      "spacing": 3,
+      "margin": 3
+    },
+    "img_beacon": {
+      "type": "spritesheet",
+      "source": "assets/images/beacons.png",
+      "frame_width": 12,
+      "frame_height": 12,
+      "frames": 25,
+      "spacing": 3,
+      "margin": 3
+    },
+    "img_terrain": {
+      "type": "spritesheet",
+      "source": "assets/images/blockers.png",
+      "frame_width": 75,
+      "frame_height": 75,
+      "frames": 25,
+      "spacing": 3,
+      "margin": 3
+    }
+  }
+}
