@@ -45,8 +45,6 @@ SmallWorld.GameState.prototype.init = function (gameData) {
 
     this.placeSound = this.game.add.audio("sfx_place");
     this.game.input.onDown.add(this.onWorldClick, this);
-
-    this.djRoomba = new SmallWorld.SuperSickBeatMaker(this, {});
 }
 
 SmallWorld.GameState.prototype.onWorldClick = function (pointer, mouseEvent) {
@@ -69,8 +67,6 @@ SmallWorld.GameState.prototype.preload = function () {
 SmallWorld.GameState.prototype.create = function () {
     "use strict";
     var collisionMap = [];
-
-    this.djRoomba.dropAPhatBeat();
 
     this.tryDrawTitle();
     var addPersonButton = new SmallWorld.Prefab(this, {x: 75, y: 390},
